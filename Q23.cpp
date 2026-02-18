@@ -8,4 +8,10 @@ hollow diamond pattern of *.
 * *
 * *
 * *
-*  */
+ *  */
+#include<iostream>
+using namespace std;
+int main(){
+
+    
+}
