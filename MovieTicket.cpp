@@ -41,10 +41,10 @@ MovieTicket :: MovieTicket()
 // Parameterized Constructor
 MovieTicket :: MovieTicket(string name, int seat, float price)
 {
- movieName = name;
- seatNumber = seat;
- ticketPrice = price;
- isBooked = false;
+  this->movieName = name;
+  this-> seatNumber = seat;
+  this->ticketPrice = price;
+  this->isBooked = false;
 }
 // Book Ticket
 void MovieTicket :: bookTicket()
@@ -90,7 +90,7 @@ int main()
 {
  // Object using default constructor
  MovieTicket ticket1;
- // Object using parameterized constructor
+ // Object using parameterized constructor.
  MovieTicket ticket2("Avengers", 10, 300);
  ticket1.bookTicket();
  ticket2.bookTicket();
