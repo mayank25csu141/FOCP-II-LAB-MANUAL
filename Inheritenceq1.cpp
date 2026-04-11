@@ -1,3 +1,7 @@
+/*Create a class Person with data members name and age, and a function 
+displayPerson(). Derive a class Student that adds roll number and a function 
+displayStudent(). Show how a Student object can access both base and derived class 
+functions. (PersonStudent)*/
 #include<iostream>
 using namespace std;
 class Person{
